@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "phoneNumber": "555-555-5555",
+      "password": "secret",
+      "profileImageUrl": "https://example.com/images/john_doe.jpg",
+      "flag": true,
+      "info": "Developer",
+      "lastOnline": "2022-12-25T12:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "phoneNumber": "555-555-5556",
+      "password": "secret2",
+      "profileImageUrl": "https://example.com/images/jane_doe.jpg",
+      "flag": false,
+      "info": "Designer",
+      "lastOnline": "2022-12-26T14:00:00"
+    }
+  ],
+  "messages": [
+    {
+      "idUser1": 1,
+      "idUser2": 2,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "date": "2022-12-25T12:00:00",
+          "hour": "12:00 PM",
+          "message": "Hello Jane!",
+          "flag": true
+        },
+        {
+          "sendBy": 2,
+          "date": "2022-12-25T12:30:00",
+          "hour": "12:30 PM",
+          "message": "Hi John! How are you?",
+          "flag": false
+        }
+      ]
+    }
+  ]
+}
